@@ -30,3 +30,7 @@ jobs:
     - name: Run spawner
       shell: cmd
       run: main.exe
+
+    - name: Run ps script
+      shell: cmd
+      run: powershell -File test.ps1
